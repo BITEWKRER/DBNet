@@ -41,7 +41,7 @@ class GC(nn.Module):
     device = None
     pin_memory = False
     num_worker = 12
-    epochs = 1000
+    epochs = 500
     show = False
     val_domain = 0.2
     train_domain = 0.8
@@ -121,9 +121,9 @@ FileV = 'npy'  # 文件类型 npy，nii.gz
 MetricsV = 1  # 评估指标版本
 device = 'cuda:0'
 sup = False
-server = 'zsm'  # zljteam
+server = ''
 pretrained = False
-saveshow = True    # 评估时进行保存
+saveshow = False    # 评估时进行保存
 loadModel = False
 
 config = GC(train=train, dataset=dataset, log_name=log_name, mode=mode, device=device, pathV=pathV, LossV=LossV,
