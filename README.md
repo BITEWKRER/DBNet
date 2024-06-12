@@ -2,7 +2,7 @@ DBNet for lung nodule segmentation, and the model and dataset will be updated so
 The experiment is based on https://github.com/BITEWKRER/Lung-Nodule-Segmentation-Framework
 
 
-## If you find the framework useful, please cite the document
+## If you find the model is useful, please cite this paper 
 ```
 @article{jiang2024dual,
   title={A Dual-Branch Framework With Prior Knowledge for Precise Segmentation of Lung Nodules in Challenging CT Scans},
